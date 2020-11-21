@@ -1,3 +1,8 @@
-num1=int(input("Enter the first number:"))
-num2=int(input("Enter the second number:"))
-print(num1+num2)
+def max_num(a,b):
+    if a >= b:
+        print(a," is larger")
+    else:
+        print(b," is larger")
+a=input("Enter the number 1:")
+b=input("Enter the number 2:")
+max_num(a,b)

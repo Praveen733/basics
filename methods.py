@@ -11,10 +11,10 @@ class Parrot:
 
     def dance(self):
         return "{} is now dancing".format(self.name)
-
 # instantiate the object
 blu = Parrot("Blu", 10)
 
 # call our instance methods
-print(blu.sing("'Happy'"))
+print(blu.sing("'Happy'"),"\n")
 print(blu.dance())
+print("{} is {} years old".format(blu.name,blu.age))

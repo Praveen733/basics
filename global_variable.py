@@ -4,6 +4,7 @@ def myfunc():
   x = "fantastic"
 myfunc()
 print("Python is " + x)
+
 """
 Normally, when you create a variable inside a function, that variable is local,  
 and can only be used inside that function.

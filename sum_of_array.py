@@ -5,3 +5,4 @@ for i in range(0,a):
     arr.append(a)
 ans = sum(arr)
 print('Sum of the array is ', ans)
+    

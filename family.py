@@ -5,14 +5,15 @@ class Family:
         self.name=name
         self.age=age
 
-santhosh=Family("santhu",29)
-praveen=Family("jithu",20)
-sushama=Family("udayipp",26)
+santhosh=Family("Santhu",29)
+praveen=Family("Jithu",20)
+sushama=Family("Udayipp",25)
 
 print("Santhosh is from {}".format(santhosh.__class__.place))
-print("Praveen is from {}".format(praveen.__class__.place))
-print("Praveen is from {}".format(sushama.__class__.place))
+print("Praveen is from {}".format(santhosh.__class__.place))
+print("Sushama is from{}".format(sushama.__class__.place))
+
 
 print("{} is {} years old".format(santhosh.name,santhosh.age))
-print("{} is {} years old".format(praveen.name,praveen.age))
 print("{} is {} years old".format(sushama.name,sushama.age))
+print("{} is {} years old".format(praveen.name,praveen.age))
